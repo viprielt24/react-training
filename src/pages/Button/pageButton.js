@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Modal = () => {
+const PageButton = () => {
     return (
         <div>
-            <h1>Modal</h1>
+            <h1>Button</h1>
         </div>
     );
 };
 
-export default Modal;
+export default PageButton;
