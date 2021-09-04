@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Select = () => {
+const PageModal = () => {
     return (
         <div>
-            <h1>Select</h1>
+            <h1>Modal</h1>
         </div>
     );
 };
 
-export default Select;
+export default PageModal;

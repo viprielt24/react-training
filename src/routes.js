@@ -1,24 +1,24 @@
 import React from 'react';
 import {Route, Switch, Redirect} from 'react-router-dom';
-import Home from './pages/Home/Home';
-import Button from './pages/Button/Button';
-import Modal from './pages/Modal/Modal';
-import Select from './pages/Select/Select';
+import PageHome from './pages/Home/pageHome';
+import PageButton from './pages/Button/pageButton';
+import PageModal from './pages/Modal/pageModal';
+import PageSelect from './pages/Select/pageSelect';
 
 export const useRoutes = () => {
     return(
         <Switch>
             <Route path="/" exact>
-                <Home />
+                <PageHome />
             </Route>
             <Route path="/button" exact>
-                <Button />
+                <PageButton />
             </Route>
             <Route path="/modal" exact>
-                <Modal />
+                <PageModal />
             </Route>
             <Route path="/select" exact>
-                <Select />
+                <PageSelect />
             </Route>
             <Redirect to="/" />
         </Switch>
