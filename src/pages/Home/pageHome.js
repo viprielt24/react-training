@@ -5,7 +5,9 @@ const PageHome = () => {
     return (
         <div>
            <h1>Home</h1>
-            <CheckBox />
+            <div class="container">
+                <CheckBox />
+            </div>
         </div>
     );
 };

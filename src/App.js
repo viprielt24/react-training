@@ -7,7 +7,8 @@ import Navbar from './components/Navbar/Navbar';
 
 
 function App() {
-  const routes = useRoutes()
+  const routes = useRoutes();
+
   return (
     <Router>
       <Navbar />
